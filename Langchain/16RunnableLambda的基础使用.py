@@ -16,8 +16,8 @@ prompt_1 = PromptTemplate.from_template(
 prompt_2 = PromptTemplate.from_template(
     "姓名：{name}，请帮我解析含义。"
 )
-
+#自定义函数
 msg_fun=RunnableLambda(lambda ai_message: {"name": ai_message.content})
 chain = prompt_1 | model |msg_fun| prompt_2 | model | str_parser
-for chunk in chain.stream(input={"lastname":"靳","gender":"男"}):
+for chunk in chain.stream(input={"lastname":"杨","gender":"男"}):
     print(chunk, end="",flush=True)
