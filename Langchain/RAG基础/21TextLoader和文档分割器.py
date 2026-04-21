@@ -1,7 +1,7 @@
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-loder = TextLoader("../data/TextLoader测试数据.txt",encoding="utf-8")
+loder = TextLoader("../../data/TextLoader测试数据.txt", encoding="utf-8")
 docs = loder.load()
 text_splitter = RecursiveCharacterTextSplitter(
     chunk_size=1000,#分段的最大字符数

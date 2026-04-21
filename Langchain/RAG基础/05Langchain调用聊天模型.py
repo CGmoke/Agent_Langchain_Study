@@ -1,7 +1,7 @@
 from langchain_community.chat_models.tongyi import ChatTongyi
 from langchain_core.messages import SystemMessage, HumanMessage,AIMessage
 import  os
-with open("../api_key.txt", "r") as f:
+with open("../../api_key.txt", "r") as f:
     os.environ["QWEN_API_KEY"] = f.read()
 model = ChatTongyi( api_key=os.environ["QWEN_API_KEY"],model="qwen-max")
 messages = [

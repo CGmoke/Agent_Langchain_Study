@@ -74,7 +74,7 @@ base_chain = ChatPromptTemplate | model | str_parser
 #通过会话id获取InMemoryChatMessageHistory类对象
 def get_history(session_id):
     """获取历史消息"""
-    return FileChatMessageHistory(session_id, "../chat_history")
+    return FileChatMessageHistory(session_id, "../../chat_history")
 
 
 #创建一个新链，对原有链增强功能，自动附加历史消息

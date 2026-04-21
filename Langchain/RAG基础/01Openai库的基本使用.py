@@ -2,7 +2,7 @@ import os
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage,SystemMessage,AIMessage
 #通过打开文件的方式获取api_key，防止api_key暴露
-with open("../api_key.txt", "r") as f:
+with open("../../api_key.txt", "r") as f:
     os.environ["QWEN_API_KEY"] = f.read()
 llm = ChatOpenAI(
     model="qwen3-max",
