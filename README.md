@@ -8,6 +8,9 @@
 
 本项目是一个**系统性学习 LangChain 框架的实战教程仓库**，包含 **26+ 个精心设计的示例代码**，覆盖了 LangChain 的核心概念和最佳实践。通过循序渐进的学习路径，帮助开发者快速掌握使用 LangChain 构建智能应用的关键技术。
 
+**RAG项目实战文档**
+https://github.com/CGmoke/Agent_Langchain_Study/blob/feature/rag-project/README.md
+
 ### ✨ 核心特性
 
 - 🔥 **多模型支持**: 同时支持云端大模型（通义千问）和本地离线模型（Ollama/Qwen2.5）
