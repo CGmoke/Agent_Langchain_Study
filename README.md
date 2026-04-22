@@ -8,7 +8,7 @@
 
 本项目是一个**系统性学习 LangChain 框架的实战教程仓库**，包含 **26+ 个精心设计的示例代码**，覆盖了 LangChain 的核心概念和最佳实践。通过循序渐进的学习路径，帮助开发者快速掌握使用 LangChain 构建智能应用的关键技术。
 
-**[RAG项目实战文档](https://github.com/CGmoke/Agent_Langchain_Study/tree/master/Langchain/RAG%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98)**
+**[RAG项目实战文档](https://github.com/CGmoke/Agent_Langchain_Study/blob/master/Langchain/RAG%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/README.md)**
 
 
 ### ✨ 核心特性
