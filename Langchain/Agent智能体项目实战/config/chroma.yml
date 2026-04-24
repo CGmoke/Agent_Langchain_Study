@@ -1,0 +1,9 @@
+collection_name: agent
+persist_directory: chorma_db
+k: 3
+data_path: data
+md5_hex_store: md5.txt
+allow_konwledge_file_type: [pdf, txt]
+chunk_size: 200
+chunk_overlap: 20
+separators: ["\n\n", "\n", ".", ",", "!", "?", "!", "?", "。", "！", "？", "！", "？"]
