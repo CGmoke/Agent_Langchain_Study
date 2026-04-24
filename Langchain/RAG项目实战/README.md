@@ -194,7 +194,7 @@ streamlit run app_file_uploader.py
 
 ```bash
 # 测试 RAG 服务
-python Rag.py
+python rag.py
 
 # 测试向量检索
 python vector_stores.py
@@ -460,7 +460,7 @@ service.upload_by_str("这是新的知识库内容...", "自定义内容.txt")
 ### 自定义提示词模板
 
 ```python
-# 在 Rag.py 中修改 prompt_template
+# 在 rag.py 中修改 prompt_template
 self.prompt_template = ChatPromptTemplate.from_messages([
     ("system", "你是一个专业的服装顾问。请基于以下参考资料回答：{context}"),
     ("system", "对话历史："),
